@@ -41,7 +41,7 @@ print _dd.msg
 __s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 __s.settimeout(2)
 try:
-	__s.connect(('www.tute.edu.cn',80))
+	__s.connect(('www.baidu.com',80))
 	print 'ok'
 except:
 	pass
